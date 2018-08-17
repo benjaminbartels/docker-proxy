@@ -5,3 +5,6 @@ curl https://raw.githubusercontent.com/jwilder/nginx-proxy/master/nginx.tmpl > n
 
 # Create network
 docker network create nginx-proxy
+
+# Download docker-compose file
+curl https://raw.githubusercontent.com/benjaminbartels/docker-proxy/master/docker-compose.yml > docker-compose.yml
